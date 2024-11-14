@@ -9,20 +9,20 @@ import { ViewTransitions } from "next-view-transitions";
 import { Footer } from "~~/app/footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.nexxel.dev"),
+  metadataBase: new URL("https://www.crn.sh"),
   title: {
-    default: "Shoubhit Dash",
-    template: "%s | Shoubhit Dash",
+    default: "Karan Handa",
+    template: "%s | Karan Handa",
   },
   description: "Developer, cardist and maker of things.",
   openGraph: {
-    title: "Shoubhit Dash",
+    title: "Karan Handa",
     description: "Developer, cardist and maker of things.",
-    url: "https://www.nexxel.dev",
-    siteName: "Shoubhit Dash",
+    url: "https://www.crn.sh",
+    siteName: "Karan Handa",
     locale: "en_US",
     type: "website",
-    images: ["https://www.nexxel.dev/og/home"],
+    images: ["https://www.crn.sh/og/home"],
   },
   robots: {
     index: true,
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     "max-snippet": -1,
   },
   twitter: {
-    title: "Shoubhit Dash",
+    title: "Karan Handa",
     card: "summary_large_image",
-    creator: "@nexxeln",
+    creator: "@crnshx",
   },
 };
 

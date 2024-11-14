@@ -105,39 +105,39 @@ function ExperienceSection({
 export default function HomePage() {
   const workItems = [
     {
-      name: "leapflow",
-      link: "https://leapflow.tech",
-      position: "co-founder and cto (may 2024 - present)",
+      name: "gumroad",
+      link: "https://gumroad.com",
+      position: "software engineer (apr 2024 - present)",
       description:
-        "leading engineering to build ai agents for automating repetitive tasks in existing software",
+        "building gumroad and flexile",
     },
     {
-      name: "dimension",
-      link: "https://dimension.dev",
-      position: "full-stack engineer (nov 2023 - jan 2024)",
+      name: "maybe",
+      link: "https://maybe.co",
+      position: "contributor (jan 2023 - feb 2024)",
       description:
-        "contributed to a large-scale t3 stack app. worked on real-time presence and chat features",
+        "built features and won a bounty",
     },
   ] satisfies ExperienceItem[];
 
   const projectItems = [
     {
-      name: "create-t3-app",
-      link: "https://create.t3.gg/",
-      position: "creator and maintainer",
+      name: "onnx2mlgo",
+      link: "https://github.com/crnsh/onnx2mlgo",
+      position: "creator",
       description:
-        "open-source project for initializing full-stack next.js apps. 24k+ stars, 200+ contributors",
+        "onnx to mlgo compiler",
     },
     {
-      name: "spotify-voice-control",
-      link: "https://github.com/nexxeln/spotify-voice-control",
-      position: "creator and maintainer",
+      name: "github-h-index",
+      link: "https://github.com/crnsh/github-h-index",
+      position: "creator",
       description:
-        "python-based terminal app for controlling spotify via voice commands",
+        "github h-index calculator",
     },
     {
       name: "all projects →",
-      link: "https://github.com/nexxeln",
+      link: "https://github.com/crnsh",
       position: "",
       description: "",
     },
@@ -154,26 +154,18 @@ export default function HomePage() {
   return (
     <main className="text-left">
       <h1 className="mb-6 text-2xl font-medium tracking-tighter">
-        shoubhit dash
+        karan handa
       </h1>
 
       <div className="mb-6 flex flex-col gap-2">
         <div className="flex items-center gap-3 text-neutral-700 dark:text-neutral-300">
-          <LocationIcon />
-          <p>chennai, india</p>
-        </div>
-
-        <div className="flex items-center gap-3 text-neutral-700 dark:text-neutral-300">
           <WorkIcon />
-          <p className="inline-flex">co-founder and cto @ leapflow</p>
+          <p className="inline-flex">engineer @ gumroad</p>
         </div>
       </div>
 
       <p className="prose prose-neutral mb-10 dark:prose-invert">
-        i&apos;m a 19 y/o cs undergrad student. i love building things and
-        solving problems. i enjoy language design, theoretical computer science
-        and i live on the terminal. if i&apos;m not coding, i&apos;m probably
-        doing cardistry, watching movies or obsessing over mechanical keyboards.
+        i build.
       </p>
 
       <div className="my-12 grid grid-cols-1 gap-12 md:grid-cols-2">
@@ -181,7 +173,7 @@ export default function HomePage() {
         <ExperienceSection title="projects" items={projectItems} />
       </div>
 
-      <h3 className="mb-8 text-xl font-medium">blog</h3>
+      {/* <h3 className="mb-8 text-xl font-medium">blog</h3>
       <div className="flex flex-col gap-6">
         {posts.map((post) => (
           <Link key={post.slug} href={`/blog/${post.slug}`} className="">
@@ -208,7 +200,7 @@ export default function HomePage() {
         >
           all posts →
         </Link>
-      </div>
+      </div> */}
 
       <h3 className="mb-6 mt-12 text-xl font-medium">links</h3>
       <ul className="font-sm flex flex-col space-x-0 space-y-3 text-neutral-600 md:flex-row md:space-x-6 md:space-y-0 dark:text-neutral-300">
@@ -217,7 +209,7 @@ export default function HomePage() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="mailto:shoubhit2005@gmail.com"
+            href="mailto:karan.handa.fox@gmail.com"
           >
             <p className="mr-2 h-7">email</p>
             <UpRightArrowIcon />
@@ -228,7 +220,7 @@ export default function HomePage() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://x.com/nexxeln"
+            href="https://x.com/crnshx"
           >
             <p className="mr-2 h-7">x.com</p>
             <UpRightArrowIcon />
@@ -239,7 +231,7 @@ export default function HomePage() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/nexxeln"
+            href="https://github.com/crnsh"
           >
             <p className="mr-2 h-7">github</p>
             <UpRightArrowIcon />
@@ -250,20 +242,9 @@ export default function HomePage() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.linkedin.com/in/shoubhit-dash/"
+            href="https://www.linkedin.com/in/crnsh/"
           >
             <p className="mr-2 h-7">linkedin</p>
-            <UpRightArrowIcon />
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://cal.com/nexxel"
-          >
-            <p className="mr-2 h-7">book a call</p>
             <UpRightArrowIcon />
           </a>
         </li>

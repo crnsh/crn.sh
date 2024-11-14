@@ -97,11 +97,11 @@ export async function GET(request: Request) {
                   fontSize: "28px",
                 }}
               >
-                nexxel.dev
+                crn.sh
               </p>
               <img
-                src="https://www.nexxel.dev/nexxel.jpg"
-                alt="nexxel's avatar"
+                src="https://www.crn.sh/crnsh.jpg"
+                alt="crnsh's avatar"
                 width={70}
                 height={70}
                 style={{
